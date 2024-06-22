@@ -21,6 +21,7 @@ int main()
 {
     SetConsoleOutputCP(65001);
     printf("hello");
+    printf("你好啊");
     human = (List_people)malloc(sizeof(List_Node1));
     event = (List_project)malloc(sizeof(List_Node2));
     mark = (List_grade)malloc(sizeof(List_Node3));
